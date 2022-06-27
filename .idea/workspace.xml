@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="061a51d0-7a5d-4150-bd5a-cf04b0404b52" name="Changes" comment="start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shapes/IShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shapes/circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Shapes/shape.java" afterDir="false" />
+    <list default="true" id="061a51d0-7a5d-4150-bd5a-cf04b0404b52" name="Changes" comment="shapes added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Handlers/drawingHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Handlers/mouseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Handlers/scalingHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Menu/contextMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Menu/guide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Menu/info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/apperance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/myDialogs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes/IShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes/IShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes/shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes/shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes/triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes/triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,10 +30,16 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -40,21 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +84,9 @@
       <workItem from="1656281103659" duration="333000" />
       <workItem from="1656282436633" duration="647000" />
       <workItem from="1656323279049" duration="108000" />
-      <workItem from="1656323397149" duration="314000" />
+      <workItem from="1656323397149" duration="3224000" />
+      <workItem from="1656366321434" duration="920000" />
+      <workItem from="1656367252239" duration="653000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1656280826000</created>
@@ -85,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656281247310</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="shapes added">
+      <created>1656323895019</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656323895019</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +128,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="shapes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="shapes added" />
   </component>
 </project>

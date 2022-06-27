@@ -1,5 +1,6 @@
 package Shapes;
 
+import Handlers.*;
 import javafx.geometry.Point2D;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.ScrollEvent;
@@ -99,7 +100,7 @@ public abstract class shape extends Shape implements IShape
         shape.setOnMouseClicked(mh);
         shape.setOnMouseDragged(mh);
         shape.setOnMousePressed(mh);
-        shape.setOnScroll(new scalingHandler(this)); // jesli kazda aktywna ma sie zmieniac to zamiast shape board
+        shape.setOnScroll(new scalingHandler(this));
         shape.setViewOrder(1.0);
         board.getChildren().add(shape);
     }

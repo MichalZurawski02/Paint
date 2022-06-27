@@ -1,5 +1,6 @@
 package Shapes;
 
+import Handlers.drawingHandler;
 import javafx.geometry.Point2D;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
@@ -13,7 +14,7 @@ public final class triangle extends shape
     /**A variable which stores the second vertex of triangle */
     private Point2D secondPoint;
     /**A variable which stores the whole triangle as polygon*/
-    private Polygon trian;
+    private Polygon triangle;
     /**
      * A constructor which sets drawing Handler to the Pane
      * @param board Pane on which triangle will be drawn and edited
@@ -33,8 +34,8 @@ public final class triangle extends shape
             secondPoint = clickedPoint;
         else
         {
-            trian = createTriangle(firstPoint, secondPoint, clickedPoint);
-            initShape(trian);
+            triangle = createTriangle(firstPoint, secondPoint, clickedPoint);
+            initShape(triangle);
             board.setOnMouseClicked(null);
         }
     }
@@ -63,6 +64,6 @@ public final class triangle extends shape
     @Override
     public Shape getShape()
     {
-        return trian;
+        return triangle;
     }
 }
