@@ -24,7 +24,7 @@ public class info extends Dialog<String> {
         vbox.getChildren().addAll(Drawing,DrawingInfo);
         getDialogPane().setContent(vbox);
         getDialogPane().getButtonTypes().add(new ButtonType("Close", ButtonData.OK_DONE));
-        getDialogPane().getStylesheets().add(getClass().getResource("myDialogs.css").toExternalForm());
-        getDialogPane().getStyleClass().add("myDialog");
+        //getDialogPane().getStylesheets().add(getClass().getResource("myDialogs.css").toExternalForm());
+        //getDialogPane().getStyleClass().add("myDialog");
     }
 }

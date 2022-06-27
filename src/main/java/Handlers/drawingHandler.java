@@ -23,7 +23,7 @@ public class drawingHandler implements EventHandler<MouseEvent>
      * A constructor assigning a shape to a class and a pane to the board
      * @param s the shape for which the scaling will be performed
      */
-    public drawingHandler(triangle s, Pane p)
+    public drawingHandler(shape s, Pane p)
     {
         this.s = s;
         this.currentPane = p;

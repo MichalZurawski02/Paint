@@ -47,7 +47,7 @@ public class Main extends Application
 
         Scene mainScene = new Scene(root, 1280, 720);
         root.getChildren().add(menuBar);
-        root.getStylesheets().add("apperance.css");
+        //root.getStylesheets().add("apperance.css");
         menuBar.prefWidthProperty().bind(mainStage.widthProperty());
         menuBar.setViewOrder(0.0);
         mainStage.setScene(mainScene);
