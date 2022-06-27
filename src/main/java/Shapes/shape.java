@@ -19,8 +19,6 @@ public abstract class shape extends Shape implements IShape
     protected double startingY;
     /**Stores the main pane where all shapes' actions will be performed */
     protected Pane board;
-    //**Stores the Shape(javafx) pole from extended classes*/
-    protected Shape shapeType;
     /**Stores the center of the shapes' mass */
     protected Point2D massCentre;
     /**Stores current scale of shape */

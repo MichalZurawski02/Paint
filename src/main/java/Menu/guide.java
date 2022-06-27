@@ -7,6 +7,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ButtonBar.ButtonData;
 import javafx.scene.layout.VBox;
 
+import java.util.Objects;
+
 /**
  * Class that customizes the dialog to inform about program usage
  */
@@ -33,7 +35,7 @@ public class guide extends Dialog<String> {
         vbox.getChildren().addAll(Drawing,DrawingInfo,Moving,MovingInfo,Scaling,ScalingInfo,Editing,EditingInfo);
         getDialogPane().setContent(vbox);
         getDialogPane().getButtonTypes().add(new ButtonType("Close", ButtonData.OK_DONE));
-        getDialogPane().getStylesheets().add(getClass().getResource("/myDialogs.css").toExternalForm());
+        getDialogPane().getStylesheets().add(Objects.requireNonNull(getClass().getResource("/myDialogs.css")).toExternalForm());
         getDialogPane().getStyleClass().add("myDialog");
     }
 }

@@ -1,7 +1,6 @@
 package Menu;
 
 import Shapes.shape;
-import javafx.beans.value.ChangeListener;
 import javafx.scene.control.ColorPicker;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.Label;
@@ -32,7 +31,7 @@ public final class contextMenu extends ContextMenu
             s.setActive(false);
         });
         slider.valueProperty().addListener(
-                (ChangeListener<Number>) (observable, oldValue, newValue) -> s.doRotate((double) newValue - (double) oldValue));
+                (observable, oldValue, newValue) -> s.doRotate((double) newValue - (double) oldValue));
         MenuItem menuItem1 = new MenuItem(null, ColorPicker);
         MenuItem menuItem2 = new MenuItem(null, slider);
         MenuItem menuItem3 = new MenuItem(null, new Label("Remove"));
@@ -43,7 +42,7 @@ public final class contextMenu extends ContextMenu
             s.setActive(false);
             s.invertStrokeColor(s.getShape());
         });
-        menuItem3.setOnAction(event -> {s.removeShape();});
+        menuItem3.setOnAction(event -> s.removeShape());
         this.getItems().addAll(menuItem1, menuItem2, menuItem3);
     }
 

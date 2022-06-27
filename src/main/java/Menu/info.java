@@ -7,6 +7,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ButtonBar.ButtonData;
 import javafx.scene.layout.VBox;
 
+import java.util.Objects;
+
 /**
  * A class that customizes the dialog to provide informations on author and purpose of app
  */
@@ -24,7 +26,7 @@ public class info extends Dialog<String> {
         vbox.getChildren().addAll(Drawing,DrawingInfo);
         getDialogPane().setContent(vbox);
         getDialogPane().getButtonTypes().add(new ButtonType("Close", ButtonData.OK_DONE));
-        getDialogPane().getStylesheets().add(getClass().getResource("/myDialogs.css").toExternalForm());
+        getDialogPane().getStylesheets().add(Objects.requireNonNull(getClass().getResource("/myDialogs.css")).toExternalForm());
         getDialogPane().getStyleClass().add("myDialog");
     }
 }
