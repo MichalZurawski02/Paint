@@ -9,6 +9,8 @@ import javafx.scene.control.MenuItem;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
+import java.util.Objects;
+
 public class Main extends Application
 {
     /**
@@ -46,7 +48,7 @@ public class Main extends Application
 
         Scene mainScene = new Scene(root, 1280, 720);
         root.getChildren().add(menuBar);
-        root.getStylesheets().add(getClass().getResource("/apperance.css").toExternalForm());
+        root.getStylesheets().add(Objects.requireNonNull(getClass().getResource("/apperance.css")).toExternalForm());
         menuBar.prefWidthProperty().bind(mainStage.widthProperty());
         menuBar.setViewOrder(0.0);
         mainStage.setScene(mainScene);
