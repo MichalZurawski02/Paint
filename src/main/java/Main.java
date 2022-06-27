@@ -15,10 +15,9 @@ public class Main extends Application
      * A method creating the GUI, which includes a menu bar with options for showing dialogs and drawing figures,
      * and a panel on which the figures will be displayed
      * @param mainStage The Main Stage where everything is assigned
-     * @throws Exception
      */
     @Override
-    public void start(Stage mainStage) throws Exception
+    public void start(Stage mainStage)
     {
         Pane root = new Pane();
 
@@ -39,8 +38,8 @@ public class Main extends Application
         Dialog<String> dialog = new info();
         Dialog<String> dialog1 = new guide();
 
-        info.setOnAction(infoHandler -> {dialog.showAndWait();});
-        guide.setOnAction(guideHandler -> {dialog1.showAndWait();});
+        info.setOnAction(infoHandler -> dialog.showAndWait());
+        guide.setOnAction(guideHandler -> dialog1.showAndWait());
         rectangleDrawingMenu.setOnAction(event -> {shape s = new rectangle(root);});
         circleDrawingMenu.setOnAction(event -> {shape s = new circle(root);});
         triangleDrawingMenu.setOnAction(event -> {shape s = new triangle(root);});

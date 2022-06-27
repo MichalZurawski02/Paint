@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="061a51d0-7a5d-4150-bd5a-cf04b0404b52" name="Changes" comment="shapes added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Handlers/drawingHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Handlers/mouseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Handlers/scalingHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Menu/contextMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Menu/guide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Menu/info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/apperance.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/myDialogs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="061a51d0-7a5d-4150-bd5a-cf04b0404b52" name="Changes" comment="everything except css">
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes/IShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes/IShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes/shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes/shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Shapes/triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Shapes/triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656323895019</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="everything except css">
+      <created>1656369451648</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656369451648</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +137,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="shapes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="shapes added" />
+    <MESSAGE value="everything except css" />
+    <option name="LAST_COMMIT_MESSAGE" value="everything except css" />
   </component>
 </project>
