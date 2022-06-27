@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="061a51d0-7a5d-4150-bd5a-cf04b0404b52" name="Changes" comment="everything except css">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu/info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu/info.java" afterDir="false" />
-    </list>
+    <list default="true" id="061a51d0-7a5d-4150-bd5a-cf04b0404b52" name="Changes" comment="css working:)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656369936039</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="css working:)">
+      <created>1656370772018</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656370772018</updated>
+    </task>
+    <task id="LOCAL-00007" summary="css working:)">
+      <created>1656370841668</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656370841668</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +168,7 @@
     <MESSAGE value="start" />
     <MESSAGE value="shapes added" />
     <MESSAGE value="everything except css" />
-    <option name="LAST_COMMIT_MESSAGE" value="everything except css" />
+    <MESSAGE value="css working:)" />
+    <option name="LAST_COMMIT_MESSAGE" value="css working:)" />
   </component>
 </project>
