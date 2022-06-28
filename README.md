@@ -25,16 +25,15 @@
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Java 17
+- JavaFX - 19-ea+8
 
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Drawing shapes e.g. triangle
+- Editing shapes e.g. resizing, rotating, recoloring
+- Moving shapes within the board
 
 
 ## Screenshots
@@ -48,19 +47,14 @@ What are the project requirements/dependencies? Where are they listed? A require
 Proceed to describe how to install / setup one's local environment / get started with the project.
 
 
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
-
-
 ## Project Status
 Project in in progress.
+
 
 ## To do:
 - Exporting/importing board to/from file
 - Drawing on the board with pen, pencil, etc.
+
 
 ## Contact
 Created by [@MichalZurawski](https://github.com/MichalZurawski02) - feel free to contact me!
