@@ -40,9 +40,7 @@ List the ready features here:
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
+For fastest setup you need IntelliJ and just click run. If you don't have Intellij, download Java SE Development Kit 17 and maven. All of dependencies are in pom.xml file.
 
 
 ## Project Status
