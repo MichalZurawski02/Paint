@@ -3,7 +3,6 @@
 > Live demo [_here_](https://youtu.be/YTdKKvS2taI). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
-* [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
 * [Screenshots](#screenshots)
@@ -12,15 +11,6 @@
 * [To do](#to-do)
 * [Contact](#contact)
 <!-- * [License](#license) -->
-
-
-## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
 
 ## Technologies Used
 - Java 17
