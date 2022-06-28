@@ -34,7 +34,7 @@ For fastest setup you need IntelliJ and just click run. If you don't have Intell
 
 
 ## Project Status
-Project in in progress.
+Project in progress.
 
 
 ## To do:
