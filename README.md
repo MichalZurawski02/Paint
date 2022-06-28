@@ -1,6 +1,6 @@
 # Paint-like app
 > Simple app for drawing, editing and performing actions on geometric shapes.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Live demo [_here_](https://youtu.be/YTdKKvS2taI). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
